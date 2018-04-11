@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            margin: 0 auto;
+            width: 1130px;
+            line-height: 0;
+
+        }
+        a{
+            display: block;
+        }
+        .header img{
+            height: 200px;
+
+        }
+        .conter{
+            background-image:url("img/22.jpg");
+            /*background-repeat: no-repeat;*/
+            position:relative;
+            width: 100%;
+            left: 0px;
+            height: 500px;
+
+        }
+        .conter img{
+            width: 100%;
+            height: 400px;
+        }
+        .denglu li{
+           list-style: none;
+            margin: 10px;
+        }
+        .denglu{
+            background: white;
+            z-index: 2;
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            top: 300px;
+            left: 600px;
+
+        }
+        .aaa{
+            width: 200px;
+            height: 30px;
+            background: orange;
+            list-style: none;
+            text-align: center;
+            cursor:pointer;
+
+        }
+        .shu{
+            border-right:1px dotted green;
+        }
+        .aaa2{
+            width: 100%;
+            overflow:hidden;
+        }
+
+        .aaa2 li:first-child{
+            font-size: 30px;
+            color: orangered;
+            cursor:pointer;
+            float:left;
+            margin-right: 30px;
+
+
+        }
+        .aaa2 li:last-child{
+            font-size: 30px;
+            color:black;
+            cursor:pointer;
+            float: right;
+            margin-right: 30px;
+
+
+        }
+        .aaa2 li :last-child:hover{
+          color: orangered;
+
+        }
+        .bottom li:first-child{
+            background-image: url("img/9.jpg");
+            background-position: -30px 0;
+            width: 30px;
+            height: 30px;
+            float: left;
+            margin: 5px;
+            cursor:pointer;
+        }
+        .bottom li{
+            float: left;
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+            cursor:pointer;
+            text-align: center;
+        }
+        .bottom li:last-child{
+            background-image: url("img/9.jpg");
+            background-position: -170px 0;
+            width: 30px;
+            height: 30px;
+            float: left;
+            margin: 5px;
+            cursor:pointer;
+        }
+        .sp1{
+            float:left;
+        }
+        .sp2{
+            float:right;
+        }
+        .sp2:hover{
+            color:red;
+        }
+        .sp1:hover{
+            color:red;
+        }
+        .ul123{
+            overflow: hidden;
+        }
+        .ccc{
+            width: 100%;
+            height: 30px;
+        }
+        .ccc a:first-child{
+            height: 30px;
+            float: left;
+        }
+        .ccc a:last-child{
+            height: 30px;
+            float: right;
+
+        }
+        .ddd{
+            height: 30px;
+            float: right;
+        }
+        .ip1{
+            width: 80%;
+            height: 30px;
+            margin: 0 auto;
+        }
+        .ip2{
+            width: 384px;
+            height: 30px;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <a href="www.xiaomi.com">
+        <img src="img/2.png" alt=""/>
+    </a>
+    
+</div>
+<div class="conter">
+    <div class="denglu">
+        <ul class="aaa2">
+        <li><p class="shu">账号登录</p></li>
+        <li><p>扫码登陆</p></li>
+            </ul>
+        <ul>
+        <li><input class="ip1" type="text" placeholder="邮箱/手机号码/小米id"/></li>
+            <li><input class="ip2" type="password" placeholder="请输入密码："/></li>
+            </ul>
+        <li class="aaa">登录</li>
+        <ul class="ccc">
+            <li> <a>手机短信登录/注册</a><a class="ddd">立刻注册</a><span>|</span><a>忘记密码</a></li>
+        </ul>
+        <ul class="bottom">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
